@@ -1,0 +1,43 @@
+html
+  font-family: -apple-system, sans-serif
+  font-weight: 300
+  font-size: 16px
+
+body, main, article, section, aside, header, nav, footer,
+figure, ul, li, p, h1, h2, h3, h4, h5, h6,
+blockquote
+  margin: 0
+  padding: 0
+
+li
+  list-style-type: none
+
+img
+  width: 100%
+
+a
+  color: #048ed0
+  text-decoration: none
+
+@import topnav
+@import document
+
+body
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+main
+  flex: 1
+  margin-bottom: 3rem
+
+footer
+  background-color: #F2F2F2
+  font-size: 75%
+  padding: 1rem 0
+
+footer .content
+  max-width: 42rem
+  margin: auto
+  padding-left: 1rem
+  padding-right: 1rem

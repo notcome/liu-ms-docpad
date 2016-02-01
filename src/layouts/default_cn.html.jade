@@ -1,0 +1,31 @@
+doctype html
+html(lang="cmn-Hans-CN")
+  head
+    if document.title
+      title= document.title + ' | Liu.ms'
+    else
+      title Liu.ms
+    meta(content="我，刘闽晟，是一位对计算机科学、语言学、政治科学感兴趣的本科生。点击网站来了解我的生活、兴趣、观点。", name=
+  "description")
+    meta(content="刘闽晟", name="author")
+    meta(content="width=device-width, initial-scale=1", name="viewport")
+    link(href="/styles/basic.css", rel="stylesheet")
+  body
+    header.topnav-wrapper
+      nav#topnav
+        ul.topnav-list-mobile
+          li(onclick="toggle('topnav-list', event)")
+            a.topnav-item-menu(href="#")
+          li
+            a.topnav-item-lms(href="/")
+        ul.topnav-list
+          li: a.topnav-item-lms(href='/')
+          li: a(href="/opinions") 观点
+          li: a(href="/projects") 项目
+          li: a(href="/photos") 照片
+          li: a(href="/about") 关于
+  main!= content
+  footer
+    .content
+      p 刘闽晟作品。转载、使用许可，请点击<a href="/copyright">此处</a>。
+  script(src="/static/js/basic.js")

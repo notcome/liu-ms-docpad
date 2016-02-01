@@ -1,0 +1,31 @@
+doctype html
+html(lang="eng-Latn-US")
+  head
+    if document.title
+      title= document.title + ' | Liu.ms'
+    else
+      title Liu.ms
+    meta(content="I am Minsheng Liu, an undergraduate interested in CS, Linguistics, and Political Science. Click this site to learn more about my life, interests, and viewpoints.", name=
+  "description")
+    meta(content="Minsheng Liu", name="author")
+    meta(content="width=device-width, initial-scale=1", name="viewport")
+    link(href="/styles/basic.css", rel="stylesheet")
+  body
+    header.topnav-wrapper
+      nav#topnav
+        ul.topnav-list-mobile
+          li(onclick="toggle('topnav-list', event)")
+            a.topnav-item-menu(href="#")
+          li
+            a.topnav-item-lms(href="/en")
+        ul.topnav-list
+          li: a.topnav-item-lms(href='/en')
+          li: a(href="/en/opinions") Opinions
+          li: a(href="/en/projects") Projects
+          li: a(href="/en/photos") Photos
+          li: a(href="/en/about") About
+  main!= content
+  footer
+    .content
+      p © Minsheng Liu. For license, click <a href="/en/copyright">here</a>.
+  script(src="/static/js/basic.js")
