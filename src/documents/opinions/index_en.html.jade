@@ -11,3 +11,21 @@ p
   |  rather than 
   a(href="https://en.wikipedia.org/wiki/Soundness") soundness
   | . The first few articles will base on my papers in my writing class.
+
+ul
+  -
+    enOpinions = getCollection("opinions").toJSON().filter(function (opinion) {
+      if (opinion.layout.endsWith('en'))
+        return true;
+      else
+        return false;
+      });
+      
+    removeIndex = function(str) {
+      var length = str.length
+      return str.substring(0, length - 'index.html'.length)
+    }
+  each opinion in enOpinions
+    li
+      p= opinion.opinionDate
+      a(href=removeIndex(opinion.url))= opinion.title

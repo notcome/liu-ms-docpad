@@ -1,13 +1,13 @@
 ---
-title: 回应 Peter Singer 的 Visible Man
+title: On Visible Man by Peter Singer
 opinionDate: 2016-01
 isOpinion: true
-layout: 'default_cn'
+layout: 'default_en'
 ---
 
-# 回应 Peter Singer 的 <cite>Visible Man</cite>
+# On <cite>Visible Man</cite> By Peter Singer
 
-本观点是对 Peter Singer 的 [Visible Man](/static/opinions/2016-01-peter-singer.pdf) 的回应。Peter Singer 认为当前由技术带来的隐私问题并没有那么严重，用这些技术监督政府可以给社会带来更多的福祉。全文漏洞百出，我就其几个主要问题展开批判。本文基于我在 UCSD 的写作课 WCWP 10A 里的第一篇文章，有修改。
+This is a response to <cite>[Visible Man](/static/opinions/2016-01-peter-singer.pdf)</cite> by Peter Singer. In that article, Singer claimed that the harm of leaking privacy caused by technology advance was outweighed by the benefit brought holding the government in check using the very same technology. My response examines major logical errors of this article. The response is taken from my first paper in WCWP 10A—a writing course I am taking at UCSD—with some modifications.
 
 ---
 

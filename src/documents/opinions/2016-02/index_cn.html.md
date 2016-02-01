@@ -1,13 +1,13 @@
 ---
-title: 回应 Peter Singer 的 Visible Man
-opinionDate: 2016-01
+title: 知识产权
+opinionDate: 2016-02
 isOpinion: true
 layout: 'default_cn'
 ---
 
 # 回应 Peter Singer 的 <cite>Visible Man</cite>
 
-本观点是对 Peter Singer 的 [Visible Man](/static/opinions/2016-01-peter-singer.pdf) 的回应。Peter Singer 认为当前由技术带来的隐私问题并没有那么严重，用这些技术监督政府可以给社会带来更多的福祉。全文漏洞百出，我就其几个主要问题展开批判。本文基于我在 UCSD 的写作课 WCWP 10A 里的第一篇文章，有修改。
+本观点是对 Peter Singer 的 <cite>[Visible Man](/static/opinions/2016-01-peter-singer.pdf)</cite> 的回应。Peter Singer 认为当前由技术带来的隐私问题并没有那么严重，用这些技术监督政府可以给社会带来更多的福祉。全文漏洞百出，我就其几个主要问题展开批判。本文基于我在 UCSD 的写作课 WCWP 10A 里的第一篇文章，有修改。
 
 ---
 

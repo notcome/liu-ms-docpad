@@ -7,6 +7,8 @@ docpadConfig = {
     multilang:
       defaultLanguage: 'cn'
       languages: ['cn', 'en']
+  collections:
+    opinions: -> @getCollection('html').findAllLive({ isOpinion: true }, [{ opinionDate: -1}])
 }
 
 # Export the DocPad Configuration

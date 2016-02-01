@@ -11,3 +11,21 @@ p
   | ，但求逻辑
   a(href="https://en.wikipedia.org/wiki/Validity") 有效
   | 。最初几月的文章会基于我的写作课上的作业。
+
+ul
+  -
+    cnOpinions = getCollection("opinions").toJSON().filter(function (opinion) {
+      if (opinion.layout.endsWith('cn'))
+        return true;
+      else
+        return false;
+      });
+      
+    removeIndex = function(str) {
+      var length = str.length
+      return str.substring(0, length - 'index.html'.length)
+    }
+  each opinion in cnOpinions
+    li
+      p= opinion.opinionDate
+      a(href=removeIndex(opinion.url))= opinion.title
